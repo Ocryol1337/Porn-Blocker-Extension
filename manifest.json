@@ -1,0 +1,67 @@
+{
+  "manifest_version": 2,
+  "name": "P*rn Blocker",
+  "version": "1.0.0",
+  "description": "An extension that blocks pornographic websites to keep you focused on your work!",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.pornhub.com/*",
+        "https://www.xvideos.com/*",
+        "https://www.xnxx.com/*",
+        "https://www.xhamster.com/*",
+        "https://www.00000nwebcamnow.com/*",
+        "https://www.000porn.com/*",
+        "https://www.theporndude.com/*",
+        "https://www.youporn.com/*",
+        "https://www.tube8.com/*",
+        "https://www.hardsextube.com/*",
+        "https://www.porn.com/*",
+        "https://www.sex.com/*",
+        "https://www.xtube.com/*",
+        "https://www.eporner.com/*",
+        "https://www.orgasm.com/*",
+        "https://www.spankbang.com/*",
+        "https://www.my18tube.com/*",
+        "http://www.pornhub.com/*",
+        "http://www.xvideos.com/*",
+        "http://www.xnxx.com/*",
+        "http://www.xhamster.com/*",
+        "http://www.00000nwebcamnow.com/*",
+        "http://www.000porn.com/*",
+        "http://www.theporndude.com/*",
+        "http://www.youporn.com/*",
+        "http://www.tube8.com/*",
+        "http://www.hardsextube.com/*",
+        "http://www.porn.com/*",
+        "http://www.sex.com/*",
+        "http://www.xtube.com/*",
+        "http://www.eporner.com/*",
+        "http://www.orgasm.com/*",
+        "http://www.spankbang.com/*",
+        "https://www.mrdeepfakes.com/*",
+        "http://www.mrdeepfakes.com/*",
+        "https://www.adultdeepfakes.com/*",
+        "http://www.adultdeepfakes.com/*",
+        "https://www.sexcelebrity.net/*",
+        "http://www.sexcelebrity.net/*",
+        "https://www.deepfake-porn.com/*",
+        "http://www.deepfake-porn.com/*",
+        "https://www.deepfucks.com/*",
+        "http://www.deepfucks.com/*",
+        "http://www.my18tube.com/*"
+      ],
+      "css": [
+        "css/style.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "css/style.css"
+  ]
+}

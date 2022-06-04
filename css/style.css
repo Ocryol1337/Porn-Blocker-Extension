@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: fantasy;
+  font-size: 13vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+html {
+  background: #000000;
+  height: 100vh;
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html::before {
+  content: 'STOP';
+}
+
+body {
+  display: none !important;
+}
