@@ -5,5 +5,5 @@ An extension that blocks pornographic websites to keep you focused on your work!
 
 
 ### Here is an example of how it blocks pornographic content!
-<img src='https://i.ibb.co/fxDm5V8/image-2.png' style='border-radius: 0.4rem; width: 30rem' />
+<img src='https://i.ibb.co/gSrFHhX/image.png' style='border-radius: 0.4rem; width: 30rem' />
 
